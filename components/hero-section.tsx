@@ -58,7 +58,7 @@ export function HeroSection() {
                 className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-4 h-auto transition-all duration-300 hover:scale-105"
                 onClick={() => {
                   window.open(
-                    "https://wa.me/9231944059354?text=Hi, I want to order 48 Hours Plus Herbal Honey from 48hoursplus",
+                    "https://wa.me/923194405935?text=Hi, I want to order 48 Hours Plus Herbal Honey from 48hoursplus",
                     "_blank",
                   )
                 }}
