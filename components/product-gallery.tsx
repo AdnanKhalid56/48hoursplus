@@ -122,7 +122,7 @@ export function ProductGallery() {
                     className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
                     onClick={() =>
                       window.open(
-                        "https://wa.me/9231944059354?text=I want to order this premium 48hoursplus product",
+                        "https://wa.me/923194405935?text=I want to order this premium 48hoursplus product",
                         "_blank",
                       )
                     }
@@ -187,7 +187,7 @@ export function ProductGallery() {
               className="bg-yellow-500 hover:bg-yellow-400 text-black text-xl px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 animate-pulse"
               onClick={() => {
                 window.open(
-                  "https://wa.me/9231944059354?text=I want to order the premium 48hoursplus Herbal Honey after seeing the product gallery",
+                  "https://wa.me/923194405935?text=I want to order the premium 48hoursplus Herbal Honey after seeing the product gallery",
                   "_blank",
                 )
               }}
