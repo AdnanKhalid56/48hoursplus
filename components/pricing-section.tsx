@@ -24,7 +24,7 @@ export function PricingSection() {
     {
       title: "Complete Box",
       subtitle: "Most Popular Choice",
-      price: 15,999",
+      price: 15,999,
       originalPrice: "24,000",
       currency: "PKR",
       description: "Best value for regular users with significant savings",
