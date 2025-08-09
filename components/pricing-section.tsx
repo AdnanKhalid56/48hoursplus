@@ -10,22 +10,22 @@ export function PricingSection() {
     {
       title: "Single Sachet",
       subtitle: "Try Before You Buy",
-      price: "999",
-      originalPrice: null,
+      price: "1,499",
+      originalPrice: 2000,
       currency: "PKR",
       description: "Perfect for first-time customers who want to experience the quality",
       features: ["1 Premium Sachet (16g)", "48-Hour Effectiveness", "Natural Herbal Formula", "Discreet Packaging"],
       badge: "Trial",
       badgeColor: "bg-blue-600",
       icon: Package,
-      whatsappText: "Hi, I want to order 1 single sachet of 48 Hours Plus Herbal Honey for 999 PKR",
+      whatsappText: "Hi, I want to order 1 single sachet of 48 Hours Plus Herbal Honey for 1,499 PKR",
       popular: false,
     },
     {
       title: "Complete Box",
       subtitle: "Most Popular Choice",
-      price: "9,999",
-      originalPrice: "12,000",
+      price: 15,999",
+      originalPrice: "24,000",
       currency: "PKR",
       description: "Best value for regular users with significant savings",
       features: [
@@ -33,12 +33,12 @@ export function PricingSection() {
         "192g Total Content",
         "2-Week Supply (Max 1 Daily)",
         "Free Shipping Included",
-        "17% Discount Applied",
+        "33% Discount Applied",
       ],
       badge: "Best Value",
       badgeColor: "bg-green-600",
       icon: Star,
-      whatsappText: "Hi, I want to order 1 complete box (12 sachets) of 48 Hours Plus for 9,999 PKR",
+      whatsappText: "Hi, I want to order 1 complete box (12 sachets) of 48 Hours Plus for 15,999 PKR",
       popular: true,
     },
     {
@@ -145,7 +145,7 @@ export function PricingSection() {
                     option.popular ? "bg-green-600 hover:bg-green-700" : "bg-gray-700 hover:bg-gray-600"
                   } text-white transition-all duration-300 hover:scale-105 py-3`}
                   onClick={() =>
-                    window.open(`https://wa.me/9231944059354?text=${encodeURIComponent(option.whatsappText)}`, "_blank")
+                    window.open(`https://wa.me/923194405935?text=${encodeURIComponent(option.whatsappText)}`, "_blank")
                   }
                 >
                   <MessageCircle className="w-4 h-4 mr-2" />
