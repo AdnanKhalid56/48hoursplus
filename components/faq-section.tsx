@@ -85,7 +85,7 @@ export function FAQSection() {
             size="lg"
             className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-4 h-auto transition-all duration-300 hover:scale-105"
             onClick={() => {
-              window.open("https://wa.me/9231944059354?text=I have a question about 48hoursplus Herbal Honey", "_blank")
+              window.open("https://wa.me/923194405935?text=I have a question about 48hoursplus Herbal Honey", "_blank")
             }}
           >
             <MessageCircle className="w-5 h-5 mr-3" />
