@@ -65,7 +65,7 @@ export function Header() {
           <Button
             className="bg-green-600 hover:bg-green-700 text-white"
             onClick={() =>
-              window.open("https://wa.me/9231944059354?text=Hi, I'm interested in 48 Hours Plus Herbal Honey", "_blank")
+              window.open("https://wa.me/923194405935?text=Hi, I'm interested in 48 Hours Plus Herbal Honey", "_blank")
             }
           >
             <MessageCircle className="w-4 h-4 mr-2" />
