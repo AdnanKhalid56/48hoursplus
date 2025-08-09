@@ -22,7 +22,7 @@ export function WhatsAppFloat() {
   }, [])
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/9231944059354?text=Hi, I'm interested in 48hoursplus Herbal Honey", "_blank")
+    window.open("https://wa.me/923194405935?text=Hi, I'm interested in 48hoursplus Herbal Honey", "_blank")
   }
 
   return (
