@@ -175,7 +175,7 @@ export function ReviewsSection() {
             className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-4 h-auto transition-all duration-300 hover:scale-105"
             onClick={() => {
               window.open(
-                "https://wa.me/9231944059354?text=I want to join thousands of satisfied 48hoursplus customers",
+                "https://wa.me/923194405935?text=I want to join thousands of satisfied 48hoursplus customers",
                 "_blank",
               )
             }}
