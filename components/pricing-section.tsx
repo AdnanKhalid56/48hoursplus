@@ -11,7 +11,7 @@ export function PricingSection() {
       title: "Single Sachet",
       subtitle: "Try Before You Buy",
       price: "1,499",
-      originalPrice: 2000,
+      originalPrice: "2,000",
       currency: "PKR",
       description: "Perfect for first-time customers who want to experience the quality",
       features: ["1 Premium Sachet (16g)", "48-Hour Effectiveness", "Natural Herbal Formula", "Discreet Packaging"],
