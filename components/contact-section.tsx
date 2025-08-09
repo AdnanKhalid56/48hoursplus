@@ -10,15 +10,15 @@ export function ContactSection() {
     {
       title: "Single Sachet",
       description: "Perfect for first-time customers",
-      price: "999 PKR",
-      whatsappText: "Hi, I want to order 1 single sachet of 48 Hours Plus Herbal Honey for 999 PKR",
+      price: "1,499 PKR",
+      whatsappText: "Hi, I want to order 1 single sachet of 48 Hours Plus Herbal Honey for 1,499 PKR",
       popular: false,
     },
     {
       title: "Complete Box",
       description: "Best value for regular users",
-      price: "9,999 PKR (Save 2,001 PKR)",
-      whatsappText: "Hi, I want to order 1 complete box (12 sachets) of 48 Hours Plus for 9,999 PKR",
+      price: "15,999 PKR (Save 8,001 PKR)",
+      whatsappText: "Hi, I want to order 1 complete box (12 sachets) of 48 Hours Plus for 15,999 PKR",
       popular: true,
     },
     {
@@ -86,7 +86,7 @@ export function ContactSection() {
                 <Button
                   className="w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 hover:scale-105"
                   onClick={() =>
-                    window.open(`https://wa.me/9231944059354?text=${encodeURIComponent(option.whatsappText)}`, "_blank")
+                    window.open(`https://wa.me/923194405935?text=${encodeURIComponent(option.whatsappText)}`, "_blank")
                   }
                 >
                   <MessageCircle className="w-4 h-4 mr-2" />
